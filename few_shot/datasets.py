@@ -8,8 +8,8 @@ import pandas as pd
 import numpy as np
 import os
 
-# from config import DATA_PATH
-DATA_PATH = "./data"
+from config import DATA_PATH
+# DATA_PATH = "./data"
 
 class OmniglotDataset(Dataset):
     def __init__(self, subset):
